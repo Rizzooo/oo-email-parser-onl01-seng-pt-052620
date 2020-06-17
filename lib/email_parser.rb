@@ -10,5 +10,5 @@ class EmailAddressParser
     @emails = emails
     emails.split(", ")
   end
-
+end
     
