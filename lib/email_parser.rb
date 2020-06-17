@@ -7,11 +7,11 @@ class EmailAddressParser
   attr_accessor :email_list
   
   def initialize(emails)
-    @email_list = emails
+    @email_list.uniq = emails
   end
   
   def parse
-    @email_list.uniq.split(", " || ",")
+    emails.split(", " || ",")
   end
 end
     
