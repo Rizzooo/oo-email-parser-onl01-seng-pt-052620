@@ -11,6 +11,8 @@ class EmailAddressParser
   end
   
   def parse
+    @emails.each do 
+  end
   
 end
     
